@@ -20,15 +20,15 @@ public class Launch_without_web_driver {
         login.click();
       // WebElement Forgotpassword= driver.findElement(By.id("forgotPasswordLink"));
        // Forgotpassword.click();
-        WebDriverManager.edgedriver().setup();
-       WebDriver driver1= new EdgeDriver();
-        driver1.get("https://opensource-demo.orangehrmlive.com/");
-        WebElement userName1= driver1.findElement(By.id("txtUsername"));
-        userName1.sendKeys("Admin");
-        WebElement password1= driver1.findElement(By.id("txtPassword"));
-        password1.sendKeys("admin123");
-         WebElement login1= driver1.findElement(By.id("btnLogin"));
-        login1.click();
+      //  WebDriverManager.edgedriver().setup();
+       //WebDriver driver1= new EdgeDriver();
+       // driver1.get("https://opensource-demo.orangehrmlive.com/");
+       // WebElement userName1= driver1.findElement(By.id("txtUsername"));
+       // userName1.sendKeys("Admin");
+      //  WebElement password1= driver1.findElement(By.id("txtPassword"));
+      //  password1.sendKeys("admin123");
+       //  WebElement login1= driver1.findElement(By.id("btnLogin"));
+       // login1.click();
     }
 }
 
